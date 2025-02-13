@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="referrer" content="no-referrer">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' media.githubusercontent.com; media-src 'self' media.githubusercontent.com; img-src 'self' data: media.githubusercontent.com; connect-src 'self' media.githubusercontent.com">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' media.githubusercontent.com; media-src 'self' media.githubusercontent.com blob:; img-src 'self' data: media.githubusercontent.com; connect-src 'self' media.githubusercontent.com">
     <title>Graveborn Dreamhall</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -16,6 +16,16 @@
         <b id="init_text" class="unselectable">Initializing...</b>
     </div>
 
+    <script>
+        // Register service worker for handling audio MIME types
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+                console.log('ServiceWorker registration successful');
+            }).catch(function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        }
+    </script>
     <script src="js/main.js" type="module"></script>
 
 </body>
