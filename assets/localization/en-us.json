@@ -1,0 +1,717 @@
+
+
+{
+    "yes": "Yes",
+    "no": "No",
+
+    "yesno": [
+        "Yes",
+        "No"
+    ],
+
+    "on": "On",
+    "off": "Off",
+    "audio": "Audio",
+
+    "pause_menu": [
+        "Resume",
+        "Respawn",
+        "Save game",
+        "Settings",
+        "Quit game"
+    ],
+    
+    "savegame": [
+
+        "Error saving\nthe game!",
+        "Game saved\nsuccessfully!"
+    ],
+
+    "respawn": "Respawn in the\nlatest checkpoint?",
+    "quit": "Return to the main menu?\nYour progress will be\nsaved.",
+
+    "settings": [
+        "Sound volume",
+        "Music volume",
+        "Toggle fullscreen",
+        "Back"
+    ],
+
+
+    "titlescreen": [
+
+        "Start game",
+        "Clear data",
+        "Settings",
+        "Quit game"
+    ],
+
+
+    "clear_data": "Are you sure you want\nto delete this save\nfile? You cannot undo\nthis!",
+
+    "data_cleared": "Save file cleared!",
+    
+
+    "back": "Back",
+
+
+    "hints": [
+        "Use ARROW KEYS or\nWASD to walk.",
+        "Press SPACE, Z or J to jump.",
+        "Press Ctrl, X, K\nor \u0005 to attack.",
+        "Press Shift, C, L\nor \u0006 to shoot.",
+        "Press DOWN to crouch and then\nJUMP to high jump.",
+        "Hold down the ATTACK button\nto CHARGE a power attack.",
+        "Hit bricks with your head\nto break them.",
+        "Press DOWN + ATTACK after\njumping to do a down attack.",
+        "Hold down the SHOOT button\nto CHARGE a power shot.",
+        "Hold JUMP BUTTON while\nin the air to use jetpack.",
+        "Now you can walk on lava!",
+        "Press and hold JUMP BUTTON\nafter a jump to fly.",
+        "Now you can break blocks\nwith a scary face!"
+    ],
+
+
+    "hints_gamepad": [
+        "Use DPAD or LEFT STICK\nto walk.",
+        "Press \u0001 to jump.",
+        "Press \u0002 to attack.",
+        "Press \u0003 to shoot.",
+        "Press DOWN to crouch and then\nJUMP to high jump.",
+        "Hold down the ATTACK button\nto CHARGE a power attack.",
+        "Hit bricks with your head\nto break them.",
+        "Press DOWN + ATTACK after\njumping to do a down attack.",
+        "Hold down the SHOOT button\nto CHARGE a power shot.",
+        "Hold JUMP BUTTON while\nin the air to use jetpack.",
+        "Now you can walk on lava!",
+        "Press and hold JUMP BUTTON\nafter a jump to fly.",
+        "Now you can break blocks\nwith a scary face!"
+    ],
+
+
+    "wakeup": [
+        "Wake up!"
+    ],
+
+
+    "healthup": [
+        "You obtain a LIFE CONTAINER!",
+        "It contains some sweet, sweet\nvitality! It increases your\nmaximum health."
+    ],
+
+    "ammoup": [
+        "You obtain a BOX OF BULLETS!",
+        "Now you can carry more bul-\nlets. Somehow."
+    ],
+
+
+    "dreamorb": [
+        "You obtain a DREAM ORB!",
+        "It emits dreamlike energy. Who\nknows what it does!"
+    ],
+
+
+    "nomoney": [
+
+        "You cannot afford\nthat item!"
+    ],
+
+
+    "purchase": [
+
+        "Purchase this item?\nIt costs you %1."
+    ],
+
+    "buyitem": [
+
+        "You obtain a new item:\n\"%1\"!"
+    ],
+
+    "cancel": "Cancel",
+
+    "sold": "SOLD OUT",
+
+    "shop1": [
+
+        "Chocolate Heart",
+        "Bag of Bullets",
+        "Ring of Power",
+        "Spectacles",
+        "Running Boots",
+        "Love Potion"
+    ],
+
+    "shopdescription1": [
+
+        "Increases your maximum\nhealth by 2.",
+        "Increases your maximum\nbullet count by 2.",
+        "Slightly increases your\nmelee attack power.",
+        "Makes your bullets do\nmore damage.",
+        "Increases your running\nspeed.",
+        "Eating hearts will res-\ntore more health."
+    ],
+
+
+    "shop2": [
+
+        "Golden Heart",
+        "Magic Bullets",
+        "Hourglass",
+        "Heavy Weight",
+        "Lucky Charm",
+        "Vampire Fangs"
+    ],
+
+    "shopdescription2": [
+
+        "Increases your maximum\nhealth by 3.",
+        "Restores bullets automa-\ntically over time.",
+        "Increases sword attack\nspeed.",
+        "Removes knockback when\ntaking damage.",
+        "Makes enemies drop goods\nmore often.",
+        "Killing enemies with a\nsword restores health."
+    ],
+
+
+    "door_colors": ["RED", "BLUE", "PURPLE", "BANANA?", "PLATINUM"],
+    "locked": "You need a %1 KEY to\nopen this door.",
+    "open_door": "You open the door with\na %1 KEY.",
+
+    "locked_huge_door": "You need more dreams orbs to\nopen this door.",
+    "open_huge_door": "You open the huge door leading\nto the Old Graveyard.",
+
+
+    "lick": "Lick the Eye? (I know\nyou want to!)",
+    "slurp": "SLURP",
+    "miniboss": "The Eye",
+
+
+    "spirit_prelude": [
+
+        "This is the corrupted spirit\nof Lady Alexandra, the Great\nDreamer, guarding her own\ngrave.",
+        "There is sadness in her empty\ngaze. Or maybe she just needs\na warm hug?"
+    ],
+    "touch": "Hug the poor spirit?\n(I know you want to!)",
+    "hug": "HUG",
+    "finalboss": "Dream Devourer",
+    
+
+    "anvil_reject": "You need an OBSIDIAN CHUNK.",
+    "anvil_accept": "You put your OBSIDIAN CHUNK on\nthe anvil and start hammering.",
+
+
+    "lever1": [
+        
+        "You pull the lever and some-\nwhere a magical beam gets\ndeactivated, blocking your\nway no longer."
+    ],
+
+    "lever2": [
+
+        "After pulling the level you\ndetect some unexpected fan\nactivity nearby."
+    ],
+
+
+    "cutscene0": [
+
+        "When the world was dying\nthey needed someone to\nmake them a new, better\nworld.",
+        "For this purpose they\ncreated the Great\nDreamer.",
+        "She dreamed a perfect\nutopia, but one day she\nstarted to question her\nown creation.",
+        "They sealed her spirit\naway so she could not\ndestroy what she had\ncreated.",
+        "But now, the seal is\nbroken..."
+    ],
+
+
+    "cutscene1": [
+
+        "They decided to call it\nthe \"World of Dream\".",
+        "It was reserved for\nthose who had wealth\nand power.",
+        "It makes you wonder,\nwhat happened to\nthe real world?",
+        "What happened to\nthe normal people?"
+    ],
+
+    "cutscene2": [
+
+        "Lady Alexandra, that was\nthe name of the Great\nDreamer when she was\nstill a human.",
+        "She was chosen to be the\nGreat Dreamer because of\nher outstanding ability\nto dream worlds.",
+        "Or that is what\nthey claimed."
+    ],
+
+
+    "cutscene3": [
+
+        "When Lady Alexandra\nwas sealed away, the\nDream started to\ndecay.",
+        "People inhabiting the\nDream either vanished\nor were turned into\nmonsters.",
+        "Without the Dreamer\nthere is no Dream..."
+    ],
+
+
+    "cutscene4": [
+
+        "The Dream was created\nbecause the real world\nwas dying.",
+        "But creating the Dream\nonly accelerated the\ndestruction.",
+        "It is, after all, a\nworld inside a world."
+    ],
+
+
+    "cutscene5": [
+
+        "Lady Alexandra has a\nrecurring nightmare,\nwhere a giant eye is\nchasing her.",
+        "They say the eye be-\nlongs to her father.",
+        "A man who sacrificed\nher own daughter to\ncreate a utopia for\nrich and powerful."
+    ],
+
+
+    "cutscene6": [
+        
+        "Lady Alexandra's father\nwas the leading engi-\nneer of the 'Project\nDream'.",
+        "Rumors say that he knew\nthat the brain scan could\nkill his daughter.",
+        "But he thought that the\nsacrifice was worth it."
+    ],
+
+
+    "cutscene7": [
+
+        "Each time Lady Alexandra\nhad a bad dream, she\nwould dream a hero.",
+        "The hero would banish\nthe nightmare so that\nthe Dream could\ncontinue.",
+        "But in the end, the\nhero always dies..."
+    ],
+
+
+    "cutscene8": [
+
+        "They did not simply\n'seal away her spirit'\nas they claimed.",
+        "Instead, they built\nher a prison inside\nher own mind.",
+        "For centuries she\nwas trapped inside\nher own mind.",
+        "For centuries she\nsuffered unspeak-\nable pain."
+    ],
+
+
+    "cutscene9": [
+
+        "Even though the door\nto her prison is now\nopen, she is not\ncompletely free.",
+        "However, she regained\nher ability to commu-\nnicate with her fol-\nlowers.",
+        "Now she is waiting\nfor you inside her\ncollapsing prison."
+    ],
+
+
+    "cutscene10": [
+
+        "Even if Lady Alexandra\nwas able to break free,\nshe would not regain\nher former strength.",
+        "The Dream would continue\nto decay, and the real\nworld would keep slowly\ndying.",
+        "Thus the Dream\nmust end."
+    ],
+
+
+    "cutscene11": [
+
+        "The only way to end\nthe Dream is, unfor-\ntunately, to kill\nLady Alexandra.",
+        "It is her dream\nafter all."
+    ],
+
+    "cutscene12": [
+
+        "Time has come,\nmy hero.",
+        "Time to destroy the\nnightmare they call\n'The Dream'.",
+        "Time to end\nthe madness.",
+        "And hopefully...\ntime to recover\nthe real world."
+    ],
+    
+    "cutscene13": [
+
+        "I... might have lied\nto you before.",
+        "Lady Alexandra is not\nexactly alive anymore.",
+        "However, her spirit is\nstill here, guarding\nher own grave.",
+        "But the spirit is cor-\nrupted by a nightmare.",
+        "They wanted to make\nsure the Dream won't\nend that easily..."
+    ],
+
+
+    "npc0": [
+
+        "We are the keepers of\nthe Graveyard. Our\njob is to bury dreams\nthat come here to die.",
+        "However, the Great\nDreamer told us to dig\nyou up and give you a\nlife. For what reason,\nwe do not know.",
+        "It has been centuries\nsince she talked to\nus last time. You\nmust be very precious\nto her."
+    ],
+
+    "npc1": [
+
+        "These portals connect\ndifferent parts of\nthe Dream together.\nSome of them are\none-way only, though."
+    ],
+
+    "npc2": [
+
+        "Welcome, stranger, to\nthe World of Dream!\nWe don't get visitors\nfrom the Graveyard\ntoo often.",
+        "You must be the one the\nGreat Dreamer has\nsummoned. She must be\nwaiting for you...\nsomewhere.",
+        "Her whereabouts are not\nknown to us, I'm af-\nraid."
+    ],
+
+    "npc3": [
+
+        "Did you know there is\nalso the Old Graveyard?\nNowadays we only bury\nnightmares there.",
+        "Not all nightmares\nremain dead, though.\nPray you never need\nto go there."
+    ],
+
+    "npc4": [
+
+        "In the old times we hid\nDream Orbs around the\nisland. They were\nstored in chests like\nthe one above us.",
+        "If you could gather\neight of them, you\nwon a special audience\nwith the Great Dreamer\nherself.",
+        "This was when the old\ncitizens were still\nalive..."
+    ],
+
+    "npc5": [
+
+        "The Great Dreamer was\nunable to dream proper\nhouses, so she gave\nus these...\"containers\"\ninstead.",
+        "This one used to belong\nto the woodcutter, but\nthen he vanished, like\nall the other old\ncitizens.",
+        "Now this house is inha-\nbitated by the shop-\nkeeper."
+    ],
+
+    "npc6": [
+
+        "This part of the Dream\nis now long forgotten,\nhence we call it the\n'Forgotten Coast'.",
+        "There used to be a port\nhere. People could sail\nto... hmm... somewhere?",
+        "I don't really know\nwhat exists beyond\nthis island."
+    ],
+
+    "npc7": [
+        
+        "There are many broken\nportals in this island.\nThey used to connect\nthe Dream to the outer\nworlds.",
+        "I think this particular\nportal used to take\nyou to the Graveyard."
+    ],
+
+    "npc8": [
+
+        "The Great Dreamer loves\npuzzles, so she created\nus islands full of\npuzzles so we could\n'train our brains'.",
+        "This is the only island\nthat hasn't sunken yet.\nShe is not very good\nat making islands...",
+        "You can reset the\npuzzle by leaving and\nre-entering this place."
+    ],
+
+    "npc9": [
+
+        "There used to be many\npeople living down here\nin these caves.",
+        "It is surprising how\nmany people prefer\nmushrooms to sunlight!"
+    ],
+
+
+    "npc10": [
+
+        "This passage used to\nlead to the sewers,\nbut some time ago\nit collapsed and water\nrushed in.",
+        "I never understood why\nwe needed sewers: we\ndo not produce any\nwaste here, this is\na utopia!"
+    ],
+
+    "npc11": [
+
+        "We are not people. We\nare more like... Spi-\nrits? Ghosts? Memories\nof the past, perhaps.",
+        "That's why you can find\nus standing in weird\nplaces."
+    ],
+
+    "npc12": [
+
+        "This portal will take\nyou to the Old Grave-\nyard.",
+        "To make sure that the\nnightmares won't es-\ncape that place we\nsealed the door.",
+        "If you happen to find\neight Dream Orbs, you\ncan still open it, if\nyou wish."
+    ],
+
+    "npc13": [
+
+        "All those monsters out-\nside used to be citi-\nzens of the Dream.",
+        "Don't feel bad if you\nhave to kill them,\nthough: they can no\nlonger feel a thing."
+    ],
+
+
+    "npc14": [
+
+        "Long time ago Lady\nAlexandra dreamed of a\nnuclear war. It might\nhave been a nightmare.",
+        "Anyways, when it was\nover we thought we\nhad better build a\nshelter. Just in case."
+    ],
+
+    "npc15": [
+
+        "Ever wondered why we\nneed a graveyard in\na dream? In a place\nthat was supposed\nto be a utopia?",
+        "I wish I knew. I guess\nyou cannot dream a\nlife without dream-\ning the death."
+    ],
+
+    "npc16": [
+
+        "Inside that beautiful\ntomb you can find\nThe Eye, the greatest\nnightmare ever lived.",
+        "If you go there, you\nmight get a sudden\nurge to lick the Eye.\nIt might not be a good\nidea, though."
+    ],
+
+    "npc17": [
+
+        "Ah, a visitor from the\nold world! Welcome to\nthe 'New Dream'.",
+        "The Great Dreamer never\nhad a chance to finish\nthis part of the Dream,\nunfortunately.",
+        "As you can see, she fi-\nnally learned to dream\nproper houses!"
+    ],
+
+    "npc18": [
+
+        "Welcome to the Magic\nForge! Here you can\ncraft weapons of unbe-\nlievable capabilities!",
+        "Well, only swords at\nthe moment. And you do\nneed obsidian, other\nminerals won't work."
+    ],
+
+
+    "npc19": [
+
+        "This was supposed to\nbe Lady Alexandra's own\nthrone room where she\ncould be the Queen of\nthe Dream.",
+        "It is somewhat ironic\nthat the entrance to\nher prison is located\nin this very room."
+    ],
+
+
+    "npc20": [
+
+        "This is the tower Lady\nAlexandra was building\nwhen she finally\nlearned the truth.",
+        "The truth about the\nDream and how it slowly\ndrains the real world,\nleaving only a dying\nplanet behind.",
+        "She almost managed to\ndestroy this tower be-\nfore they were finally\nable to imprison her."
+    ],
+
+
+    "npc21": [
+
+        "I have a feeling that\nLady Alexandra's child-\nhood was not particu-\nlarly happy.",
+        "Look at this 'castle':\nit is more a fortress\nthan a castle you\nsee in fairy tales!",
+        "But perhaps... perhaps\nthis was her intention\nall along?"
+    ],
+
+
+    "npc22": [
+
+        "This path will take you\nto the Forge. Getting\nthere is not that easy,\nthough.",
+        "An ability to fly might\nprove useful."
+    ],
+
+
+    "npc23": [
+
+        "Thank you for beating\nthe Eye. I have never\nbeen in this part of\nthe Dream before.",
+        "In fact, I didn't even\nknow there exists some-\nthing beyond the Old\nGraveyard.",
+        "Why didn't she tell us\nabout this place?"
+    ],
+
+
+    "npc24": [
+
+        "Most of these portals\nstopped working long\ntime ago. They would\ntake you to 'Small\nDreams'.",
+        "The Great Dreamer had\nthis idea of smaller\nworlds that were unlike\nany other place in the\nDream.",
+        "You can still visit the\nBurning Dream, if you\nwish."
+    ],
+
+
+    "npc25": [
+
+        "This used to be a test-\ning area for various\ntypes of jetpacks.",
+        "Lady Alexandra had this\nfunny obsession with\njetpacks, even though\nshe had never seen one\nin her life.",
+        "Most of them are gone\nnow, but you can pro-\nbably find a working\nprototype in the hangar\nsomewhere nearby."
+    ],
+
+
+    "npc26": [
+
+        "You probably should not\nattempt this area\nwithout a jetpack.",
+        "Or skis. This was orig-\ninally supposed to be\na skiing center."
+    ],
+
+
+    "npc27": [
+
+        "This path will take you\nto the Great Chasm.\nIf you find a way to\nwalk on lava, that is.",
+        "The Great Dreamer wan-\nted to call this place\nthe 'Flower Path'.",
+        "She never got a chance\nto plant the flowers,\nsadly. Or get rid of\nthe lava."
+    ],
+
+    
+    "npc28": [
+
+        "In the end, the Great\nDreamer wanted to be\njust like everyone\nelse.",
+        "She wanted to be loved,\nrespected... and build\na huge castle just\nfor herself.",
+        "Keep walking west and\nyou will eventually\nfind it."
+    ],
+
+
+    "npc29": [
+
+        "We are the Vessel."
+    ],
+
+
+    "item0": [
+
+        "You obtain a DUMMY ITEM!",
+        "It reminds you of your child-\nhood. What a dummy you were!"
+    ],
+
+    "item1": [
+
+        "You obtain a SWORD!",
+        "It is a trusty (or was it rus-\nty?) old sword for all types\nof unjustified violence."
+    ],
+
+    "item2": [
+
+        "You obtain a HAND CANNON!",
+        "It is one of those novelty\nfirearms where you put your\nhand inside. Not very practi-\ncal, but looks cool."
+    ],
+
+    "item3": [
+
+        "You obtain a MAGIC SNORKEL!",
+        "Its magical capabilities allow\nyou to breathe underwater,\nmaking it possible to dive\nwithout fear of dying."
+    ],
+
+
+    "item4": [
+
+        "You obtain a PAIR OF SPRING\nBOOTS!",
+        "They are just ordinary leather\nboots, but they have springs\nin the bottom, allowing you\nto perform a high jump!\nHooray!"
+    ],
+
+
+    "item5": [
+
+        "You obtain an ETERNAL FLAME!",
+        "This magical flames makes\npossible to perform a power-\nful charge attack. Because\nthat's what magic fires do."
+    ],
+
+
+    "item6": [
+
+        "You obtain a RED KEY!",
+        "Knowing that this key only\nopens red doors makes you\nsee red."
+    ],
+
+
+    "item7": [
+
+        "You obtain a BLUE KEY!",
+        "Not opening a blue door with\nthis key makes you feel blue."
+    ],
+
+
+    "item8": [
+
+        "You obtain a PURPLE KEY!",
+        "It reminds you of the face of\nyour dying grandmother.\nBetter use it only to open\npurple doors!"
+    ],
+
+
+    "item9": [
+
+        "You obtain a THUMB DOWN!",
+        "All this sudden negativity\ngives you motivation to\nlearn a down attack."
+    ],
+
+    "item10": [
+
+        "You obtain a RECHARGABLE BAT-\nTERY!",
+        "Now you can store some energy\nplasma thing in your gun and\nrelease it as a powerful\ncharge attack!"
+    ],
+
+    "item11": [
+
+        "You obtain a JETPACK!",
+        "It lacks the booster addon,\nso it is no good for flying,\nbut it can... uh, reduce your\nlanding speed, I guess?"
+    ],
+
+    "item12": [
+
+        "You obtain a BOOSTER ADDON\n(for your JETPACK)!",
+        "It makes your jetpack a proper\nrocket pack, allowing you to\nfly... at least for a short\nwhile."
+    ],
+
+    "item13": [
+
+        "You obtain a NIGHTMARE BANISH-\nER!",
+        "It is the most powerful sword\never created. It is so power-\nful even your mother fears\nit."
+    ],
+
+    "item14": [
+
+        "You obtain a PHANTOM CANNON!",
+        "It is a more powerful version\nof your trusty hand cannon.\nAnd that's... all."
+    ],
+
+    "item15": [
+
+        "You obtain A PLATINUM KEY!",
+        "Now you just need to find a\nplatinum door. Who would have\nguessed!"
+    ],
+
+    "item19": [
+
+        "You obtain CRYSTAL BOOTS!",
+        "They are a magical pair of\nmagical boots made of magical\ncrystals. With them, you can\nwalk on lava. Cool!"
+    ],
+
+    "item20": [
+
+        "You obtain an OBSIDIAN CHUNK!",
+        "You could probably craft a\ncool sword out of it. You\njust need to find a forge..."
+    ],
+
+    "item21": [
+
+        "You obtain a PLUTONIUM SHIELD!",
+        "It reduces the damage you\ntake by one. And gives you\nradiation sickness."
+    ],
+
+    "item22": [
+
+        "You obtain a PAIR OF RUNNING\nPANTS!",
+        "They are so hideous you want\nto run away from them. Your\nrunning speed is increased."
+    ],
+
+
+    "inprogress": "This area is still work\nin progress. Come back\nafter the next (major)\nupdate!",
+
+    "press_enter": "Press SPACE or \u0001 to start",
+
+
+    "save_info": [
+
+        "This game saves the progress\nautomatically. If you see this\nicon:",
+        "it means that the game has\nbeen saved successfully. How-\never, if you see this icon\ninstead:",
+        "then something went wrong and\nyour progress was not saved.",
+
+        "You can also save manually\nfrom the pause menu any time."
+    ],
+
+    "press_any_key": [
+
+        "Press ANY KEY to continue.",
+        "Press ANY BUTTON to continue."
+    ],
+
+
+    "ending": [
+
+        "So dies the Dream\nDevourer, the True\nNightmare.",
+        "The World of Dream\nmay finally perish.",
+        "You, my hero, are left\nalone in a void between\nthe worlds.",
+        "There are numerous\nquestions in your\nmind.",
+        "Was Lady Alexandra ever\nthe Great Dreamer, or\njust a vessel like you?",
+        "Is there a 'real world',\nor just different worlds,\nnone of them more real\nthan the others?",
+        "For those questions\nI have no answer.",
+        "But one thing I know:\none day you will be\nneeded again.",
+        "Before that... just\nkeep walking."
+    ],
+
+
+    "credits_titles": [
+
+        "CREDITS",
+        "Everything (excluding music):",
+        "Music:",
+        "Software:",
+        "Special thanks:"
+    ],
+
+    "credits_names": [
+        
+        "",
+        "Jani Nyk\u0007nen",
+        "H0dari",
+        "Visual Studio Code\nTypeScript\nGIMP\nTiled\nAudacity\nBFXR\nMuseScore\nLMMS\nLinux Mint\n...and many more!",
+        "You\nYour cat\n(I really hope you\n have a cat!)     "
+    ],
+
+    "the_end": "THE END"
+}

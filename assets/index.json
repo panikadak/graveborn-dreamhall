@@ -1,0 +1,196 @@
+{
+    "bitmapPath": "assets/bitmaps/",
+    "bitmaps": [
+
+        {"name": "font", "path": "font.png"},
+        {"name": "font_outlines", "path": "font_outlines.png"},
+        {"name": "font_tiny", "path": "font_tiny.png"},
+
+        {"name": "logo", "path": "logo.png"},
+        {"name": "created_by", "path": "created_by.png"},
+
+        {"name": "tileset_0", "path": "tileset_0.png"},
+        {"name": "tileset_1", "path": "tileset_1.png"},
+        {"name": "tileset_2", "path": "tileset_2.png"},
+        {"name": "tileset_3", "path": "tileset_3.png"},
+        {"name": "tileset_4", "path": "tileset_4.png"},
+        {"name": "tileset_5", "path": "tileset_5.png"},
+
+        {"name": "projectiles", "path": "projectiles.png"},
+        {"name": "particles_1", "path": "particles_1.png"},
+        {"name": "muzzle_flash", "path": "muzzle_flash.png"},
+
+        {"name": "forest", "path": "forest.png"},
+        {"name": "water", "path": "water.png"},
+        {"name": "clouds_0", "path": "clouds_0.png"},
+        {"name": "clouds_1", "path": "clouds_1.png"},
+        {"name": "sun", "path": "sun.png"},
+        {"name": "moon", "path": "moon.png"},
+        {"name": "stars", "path": "stars.png", "repeatx": "true", "repeaty": "true"},
+        {"name": "cave_wall", "path": "cave_wall.png", "repeatx": "true", "repeaty": "true"},
+        {"name": "frozen_cave_wall", "path": "frozen_cave_wall.png", "repeatx": "true", "repeaty": "true"},
+        {"name": "castle_wall", "path": "castle_wall.png", "repeatx": "true", "repeaty": "true"},
+
+        {"name": "breakable", "path": "breakable.png"},
+        {"name": "splinter", "path": "splinter.png"},
+        {"name": "collectables", "path": "collectables.png"},
+        {"name": "enemies", "path": "enemies.png"},
+        {"name": "npc", "path": "npc.png"},
+        {"name": "checkpoint", "path": "checkpoint.png"},
+        {"name": "chest", "path": "chest.png"},
+        {"name": "portal", "path": "portal.png"},
+        {"name": "shopkeeper", "path": "shopkeeper.png"},
+        {"name": "platforms", "path": "platforms.png"},
+        {"name": "spring", "path": "spring.png"},
+        {"name": "lever", "path": "lever.png"},
+        {"name": "switch", "path": "switch.png"},
+        {"name": "locked_doors", "path": "locked_doors.png"},
+        {"name": "eye", "path": "eye.png"},
+        {"name": "fan", "path": "fan.png"},
+        {"name": "anvil", "path": "anvil.png"},
+        {"name": "spirit", "path": "spirit.png"},
+        {"name": "finalboss", "path": "finalboss.png"},
+
+        {"name": "hud", "path": "hud.png"},
+        {"name": "portraits", "path": "portraits.png"},
+        {"name": "icons", "path": "icons.png"},
+        {"name": "item_icons", "path": "item_icons.png"},
+        {"name": "guides", "path": "guides.png"},
+
+        {"name": "mouth", "path": "mouth.png"},
+
+        {"name": "player", "path": "player.png"},
+        {"name": "weapons", "path": "weapons.png"}
+
+    ],
+
+    "tilemapPath": "assets/tilemaps/",
+    "tilemaps": [
+
+        {"name": "graveyard", "path": "graveyard.tmx"},
+        {"name": "coast", "path": "coast.tmx"},
+        {"name": "crossroads", "path": "crossroads.tmx"},
+        {"name": "shop", "path": "shop.tmx"},
+        {"name": "dark_room", "path": "dark_room.tmx"},
+        {"name": "beach", "path": "beach.tmx"},
+        {"name": "sunken_passage", "path": "sunken_passage.tmx"},
+        {"name": "cave", "path": "cave.tmx"},
+        {"name": "grotto", "path": "grotto.tmx"},
+        {"name": "sewers", "path": "sewers.tmx"},
+        {"name": "warehouse", "path": "warehouse.tmx"},
+        {"name": "puzzle_tower", "path": "puzzle_tower.tmx"},
+        {"name": "hills", "path": "hills.tmx"},
+        {"name": "town", "path": "town.tmx"},
+        {"name": "house1", "path": "house1.tmx"},
+        {"name": "house2", "path": "house2.tmx"},
+        {"name": "house3", "path": "house3.tmx"},
+        {"name": "house4", "path": "house4.tmx"},
+        {"name": "house5", "path": "house5.tmx"},
+        {"name": "old_graveyard", "path": "old_graveyard.tmx"},
+        {"name": "puzzle2", "path": "puzzle2.tmx"},
+        {"name": "boss_room", "path": "boss_room.tmx"},
+        {"name": "frozen_caverns", "path": "frozen_caverns.tmx"},
+        {"name": "inner_dream", "path": "inner_dream.tmx"},
+        {"name": "dark_cave", "path": "dark_cave.tmx"},
+        {"name": "path_to_smithery", "path": "path_to_smithery.tmx"},
+        {"name": "fortification", "path": "fortification.tmx"},
+        {"name": "entrance", "path": "entrance.tmx"},
+        {"name": "sky_cave", "path": "sky_cave.tmx"},
+        {"name": "control_room", "path": "control_room.tmx"},
+        {"name": "hangar", "path": "hangar.tmx"},
+        {"name": "abyss", "path": "abyss.tmx"},
+        {"name": "portal_storage", "path": "portal_storage.tmx"},
+        {"name": "broken_dream", "path": "broken_dream.tmx"},
+        {"name": "lava_house", "path": "lava_house.tmx"},
+        {"name": "lava_road", "path": "lava_road.tmx"},
+        {"name": "mountain_wall", "path": "mountain_wall.tmx"},
+        {"name": "descend", "path": "descend.tmx"},
+        {"name": "tower", "path": "tower.tmx"},
+        {"name": "actual_tower", "path": "actual_tower.tmx"},
+        {"name": "forge", "path": "forge.tmx"},
+        {"name": "underground_passage", "path": "underground_passage.tmx"},
+        {"name": "shop2", "path": "shop2.tmx"},
+        {"name": "throneroom", "path": "throneroom.tmx"},
+        {"name": "puzzle3", "path": "puzzle3.tmx"},
+        {"name": "prison_entrance", "path": "prison_entrance.tmx"},
+        {"name": "final_graveyard", "path": "final_graveyard.tmx"},
+        {"name": "shortcut", "path": "shortcut.tmx"},
+        {"name": "the_end", "path": "the_end.tmx"},
+
+        {"name": "collisions_0", "path": "collisions_0.tmx"},
+        {"name": "collisions_1", "path": "collisions_1.tmx"},
+        {"name": "collisions_2", "path": "collisions_2.tmx"},
+        {"name": "collisions_3", "path": "collisions_3.tmx"},
+        {"name": "collisions_4", "path": "collisions_4.tmx"},
+        {"name": "collisions_5", "path": "collisions_5.tmx"}
+    ],
+
+    "samplePath": "assets/audio/",
+    "samples": [
+        
+        {"name": "choose", "path": "choose.wav"},
+        {"name": "select", "path": "select.wav"},
+        {"name": "pause", "path": "pause.wav"},
+        {"name": "deny", "path": "deny.wav"},
+
+        {"name": "jump", "path": "jump.wav"},
+        {"name": "jump2", "path": "jump2.wav"},
+        {"name": "buzz", "path": "buzz.wav"},
+        {"name": "thwomp", "path": "thwomp.wav"},
+        {"name": "vaporize", "path": "vaporize.wav"},
+        {"name": "bounce", "path": "bounce.wav"},
+        {"name": "destroy", "path": "destroy.wav"},
+
+        {"name": "hit", "path": "hit.wav"},
+        {"name": "sword", "path": "sword.wav"},
+        {"name": "kill", "path": "kill.wav"},
+        {"name": "throw", "path": "throw.wav"},
+        {"name": "lever", "path": "lever.wav"},
+        {"name": "lick", "path": "lick.wav"},
+        {"name": "hammer", "path": "hammer.wav"},
+        {"name": "crush", "path": "crush.wav"},
+        {"name": "tooth", "path": "tooth.wav"},
+
+        {"name": "hurt", "path": "hurt.wav"},
+        {"name": "die", "path": "die.wav"},
+        {"name": "eye_death", "path": "eye_death.wav"},
+        
+        {"name": "break", "path": "break.wav"},
+        {"name": "coin", "path": "coin.wav"},
+        {"name": "heal", "path": "heal.wav"},
+        {"name": "ammo", "path": "ammo.wav"},
+
+        {"name": "shoot", "path": "shoot.wav"},
+        {"name": "bullethit", "path": "bullethit.wav"},
+        {"name": "empty", "path": "empty.wav"},
+
+        {"name": "checkpoint", "path": "checkpoint.wav"},
+        {"name": "portal", "path": "portal.wav"},
+        {"name": "transition", "path": "transition.wav"},
+
+        {"name": "charge", "path": "charge.wav"},
+        {"name": "charge2", "path": "charge2.wav"},
+        {"name": "charge3", "path": "charge3.wav"},
+        {"name": "charge_attack", "path": "chargeattack.wav"},
+        {"name": "charge_shot", "path": "chargeshot.wav"},
+
+        {"name": "item", "path": "item.ogg"},
+
+        {"name": "graveyard", "path": "graveyard.ogg"},
+        {"name": "titlescreen", "path": "titlescreen.ogg"},
+        {"name": "forest", "path": "forest.ogg"},
+        {"name": "miniboss", "path": "miniboss.ogg"},
+        {"name": "cave", "path": "cave.ogg"},
+        {"name": "winter", "path": "winter.ogg"},
+        {"name": "castle", "path": "castle.ogg"},
+        {"name": "finalboss", "path": "finalboss.ogg"}
+
+    ],
+
+    "documentPath": "assets/localization/",
+    "documents": [
+
+        {"name": "en-us", "path": "en-us.json"}
+    ]
+}
+

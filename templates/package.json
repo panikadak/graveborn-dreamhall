@@ -1,0 +1,10 @@
+{
+  "name": "A Prison for Dreams",
+  "main": "index.html",
+  "chromium-args": "--lang=en-US",
+  "window": {
+      "width": 768,
+      "height": 576,
+      "fullscreen": false
+  }
+}
