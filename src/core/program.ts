@@ -170,4 +170,8 @@ export class Program {
 
         this.loop(0.0, errorEvent);
     }
+
+    public getEvent() : ProgramEvent {
+        return this.event;
+    }
 }

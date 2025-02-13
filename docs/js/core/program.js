@@ -99,4 +99,7 @@ export class Program {
         this.onloadEvent = onload;
         this.loop(0.0, errorEvent);
     }
+    getEvent() {
+        return this.event;
+    }
 }

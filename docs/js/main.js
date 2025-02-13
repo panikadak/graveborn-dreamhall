@@ -78,7 +78,9 @@ if (window["nw"] !== undefined) {
         const ctx = new AudioContext();
         document.getElementById("div_initialize")?.remove();
         try {
-            (new Program(ctx, WebGLRenderer, 256, 192, false, true, false, 576, 192)).run(initialEvent, onloadEvent, printError);
+            const program = new Program(ctx, WebGLRenderer, 256, 192, false, true, false, 576, 192);
+            initialEvent(program.getEvent());
+            program.run(undefined, onloadEvent, printError);
         }
         catch (e) {
             printError(e);
@@ -90,7 +92,9 @@ else {
         document.getElementById("init_text").innerText = "Press Any Key to Start";
         const ctx = await waitForInitialEvent();
         try {
-            (new Program(ctx, WebGLRenderer, 256, 192, false, true, false, 576, 192)).run(initialEvent, onloadEvent, printError);
+            const program = new Program(ctx, WebGLRenderer, 256, 192, false, true, false, 576, 192);
+            initialEvent(program.getEvent());
+            program.run(undefined, onloadEvent, printError);
         }
         catch (e) {
             printError(e);
