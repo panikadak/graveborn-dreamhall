@@ -1,0 +1,14 @@
+include: [".htaccess"]
+defaults:
+  - scope:
+      path: "assets/audio"
+    values:
+      audio: true
+  - scope:
+      path: "assets/audio/*.ogg"
+    values:
+      mime_type: "audio/ogg"
+  - scope:
+      path: "assets/audio/*.wav"
+    values:
+      mime_type: "audio/wav" 

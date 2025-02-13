@@ -67,7 +67,11 @@ export class Assets {
     }
     loadSample(name, path, alias) {
         ++this.totalAssets;
-        fetch(path)
+        fetch(path, {
+            headers: {
+                'Accept': path.endsWith('.ogg') ? 'audio/ogg' : 'audio/wav'
+            }
+        })
             .then(response => response.arrayBuffer())
             .then(buffer => {
             this.audio.decodeSample(buffer, (sample) => {
