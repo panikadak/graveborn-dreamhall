@@ -67,14 +67,27 @@ export class Assets {
     }
     loadSample(name, path, alias) {
         ++this.totalAssets;
-        fetch(path, {
-            headers: {
-                'Accept': path.endsWith('.ogg') ? 'audio/ogg' : 'audio/wav'
+        console.log(`Loading audio sample ${name} from ${path}`);
+        fetch(path)
+            .then(async (response) => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
+            const headers = {};
+            response.headers.forEach((value, key) => {
+                headers[key] = value;
+            });
+            console.log(`Response headers:`, headers);
+            const buffer = await response.arrayBuffer();
+            console.log(`Buffer received for ${name}, size: ${buffer.byteLength} bytes`);
+            // Log first few bytes to check header
+            const firstBytes = new Uint8Array(buffer.slice(0, 16));
+            console.log(`First bytes:`, Array.from(firstBytes).map(b => b.toString(16).padStart(2, '0')).join(' '));
+            return buffer;
         })
-            .then(response => response.arrayBuffer())
             .then(buffer => {
             this.audio.decodeSample(buffer, (sample) => {
+                console.log(`Successfully decoded audio for ${name}`);
                 ++this.loaded;
                 this.samples.set(name, sample);
                 if (alias !== undefined) {
