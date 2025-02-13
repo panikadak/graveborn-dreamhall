@@ -1,3 +1,0 @@
-/*
-  Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' media.githubusercontent.com; media-src 'self' media.githubusercontent.com; img-src 'self' data: media.githubusercontent.com; connect-src 'self' media.githubusercontent.com
-  Access-Control-Allow-Origin: * 
