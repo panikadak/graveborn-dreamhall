@@ -114,16 +114,28 @@ export class AudioPlayer {
     public getMusicVolume = () : number => this.musicVolume;
 
 
-    public decodeSample(sampleData : ArrayBuffer, callback : (s : AudioSample) => any) : void {
+    public decodeSample(sampleData : ArrayBuffer, callback : (s : AudioSample) => any) : Promise<void> {
 
         if (this.ctx === undefined)
-            return;
+            return Promise.reject(new Error("AudioContext is undefined"));
 
-        this.ctx.decodeAudioData(sampleData, (data : AudioBuffer) => {
-
-            // I know that this.ctx cannot be undefined at this point, but vscode apparently
-            // does not, thus the type conversion
-            callback(new AudioSample(this.ctx as AudioContext, data));
+        return new Promise<void>((resolve, reject) => {
+            this.ctx.decodeAudioData(sampleData, 
+                (data : AudioBuffer) => {
+                    try {
+                        // I know that this.ctx cannot be undefined at this point, but vscode apparently
+                        // does not, thus the type conversion
+                        callback(new AudioSample(this.ctx as AudioContext, data));
+                        resolve();
+                    }
+                    catch (error) {
+                        reject(error);
+                    }
+                },
+                (error) => {
+                    reject(error);
+                }
+            );
         });
     }
 

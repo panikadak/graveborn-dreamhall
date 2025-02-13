@@ -71,22 +71,23 @@ export class Assets {
         fetch(path)
             .then(async (response) => {
             if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+                throw new Error(`HTTP error! status: ${response.status}, statusText: ${response.statusText}`);
             }
             const headers = {};
             response.headers.forEach((value, key) => {
                 headers[key] = value;
             });
-            console.log(`Response headers:`, headers);
+            console.log(`Response headers for ${name}:`, headers);
             const buffer = await response.arrayBuffer();
             console.log(`Buffer received for ${name}, size: ${buffer.byteLength} bytes`);
             // Log first few bytes to check header
-            const firstBytes = new Uint8Array(buffer.slice(0, 16));
-            console.log(`First bytes:`, Array.from(firstBytes).map(b => b.toString(16).padStart(2, '0')).join(' '));
+            const firstBytes = new Uint8Array(buffer.slice(0, 32));
+            console.log(`First 32 bytes of ${name}:`, Array.from(firstBytes).map(b => b.toString(16).padStart(2, '0')).join(' '));
             return buffer;
         })
             .then(buffer => {
-            this.audio.decodeSample(buffer, (sample) => {
+            console.log(`Starting audio decoding for ${name}...`);
+            return this.audio.decodeSample(buffer, (sample) => {
                 console.log(`Successfully decoded audio for ${name}`);
                 ++this.loaded;
                 this.samples.set(name, sample);
