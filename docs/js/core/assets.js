@@ -67,21 +67,21 @@ export class Assets {
     }
     loadSample(name, path, alias) {
         ++this.totalAssets;
-        const xobj = new XMLHttpRequest();
-        xobj.open("GET", path, true);
-        xobj.responseType = "arraybuffer";
-        xobj.onload = () => {
-            if (xobj.readyState == 4) {
-                this.audio.decodeSample(xobj.response, (sample) => {
-                    ++this.loaded;
-                    this.samples.set(name, sample);
-                    if (alias !== undefined) {
-                        this.samples.set(alias, sample);
-                    }
-                });
-            }
-        };
-        xobj.send(null);
+        fetch(path)
+            .then(response => response.arrayBuffer())
+            .then(buffer => {
+            this.audio.decodeSample(buffer, (sample) => {
+                ++this.loaded;
+                this.samples.set(name, sample);
+                if (alias !== undefined) {
+                    this.samples.set(alias, sample);
+                }
+            });
+        })
+            .catch(error => {
+            console.error(`Error loading audio sample ${name} from ${path}:`, error);
+            ++this.loaded; // Still increment to avoid hanging
+        });
     }
     loadDocument(name, path) {
         this.loadTextFile(path, "json", (s) => {
